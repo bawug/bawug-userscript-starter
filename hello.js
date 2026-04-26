@@ -9,7 +9,7 @@
 ( function () {
 	'use strict';
 
-	mw.loader.using( [ 'mediawiki.util', 'mediawiki.notify' ] ).then( function () {
+	mw.loader.using( [ 'mediawiki.util', 'mediawiki.notification' ] ).then( function () {
 		var link = mw.util.addPortletLink(
 			'p-tb',                       // "Tools" portlet on most skins
 			'#',                          // href (we handle the click ourselves)
