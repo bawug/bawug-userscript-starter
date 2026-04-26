@@ -12,7 +12,7 @@ User scripts are the easiest way to start writing Wikipedia code:
 - Reload the page and your changes are live.
 - Full access to [`mw.*` MediaWiki APIs](https://doc.wikimedia.org/mediawiki-core/master/js/), [jQuery](https://api.jquery.com/), and [OOUI](https://doc.wikimedia.org/oojs-ui/master/js/).
 
-The Wikipedia gadget system (see [`bawug-gadget-starter`](https://github.com/bawug/bawug-gadget-starter/)) is the same code path — gadgets are user scripts an admin has packaged for site-wide opt-in.
+The Wikipedia gadget system (see [`bawug-gadget-starter`](https://github.com/bawug/bawug-gadget-starter/)) runs in the same browser runtime — gadgets are user scripts an interface admin has registered as a ResourceLoader module so anyone can opt in from Preferences.
 
 ## What this script does
 
