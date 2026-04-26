@@ -42,4 +42,4 @@ This is how most published user scripts are distributed.
 - See the [User scripts directory](https://en.wikipedia.org/wiki/Wikipedia:User_scripts) for hundreds of real examples.
 - Use [`mw.Api`](https://doc.wikimedia.org/mediawiki-core/master/js/mw.Api.html) to read or edit pages from the script.
 - Use [`mw.hook`](https://doc.wikimedia.org/mediawiki-core/master/js/mw.hook.html) to react to events like `wikipage.content`.
-- Use [OOUI](https://doc.wikimedia.org/oojs-ui/master/) for native-looking dialogs and form controls.
+- Use [OOUI](https://doc.wikimedia.org/oojs-ui/master/demos/) for native-looking dialogs and form controls.
